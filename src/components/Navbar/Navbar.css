@@ -10,6 +10,7 @@ nav {
 .nav__projectName {
   color: #e4f9ff;
   text-decoration: none;
+  font-size: x-large;
 }
 
 .authLink {
