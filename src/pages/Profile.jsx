@@ -61,7 +61,7 @@ formBody.append("description", form.description)
 
 
 useEffect(() => {
-    const url = `http://localhost:5005/api/profile/${user._id}`;
+    const url = `https://imagestorev2.herokuapp.com/api/profile/${user._id}`;
     axios.get(url, {headers: { authorization: localStorage.getItem(CONSTS.ACCESS_TOKEN) }}).then(response => {
         
         console.log(response.data)
